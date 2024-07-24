@@ -1,0 +1,62 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "5d811843-921d-4df7-90ae-a95b7f56b858",
+  "Name": "FiasSolution",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "GD.FiasSolution.Client",
+  "ClientBaseAssemblyName": "GD.FiasSolution.ClientBase",
+  "ClientBaseNamespace": "GD.FiasSolution.ClientBase",
+  "ClientNamespace": "GD.FiasSolution.Client",
+  "Code": "FiasSol",
+  "CompanyCode": "GD",
+  "Cover": {
+    "NameGuid": "64611d50-cd81-4a9f-a6b6-c082907fca92",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "fd54f7ca-081a-4636-8b75-7a7a439ebea8",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "6999cef7-f676-45f8-907c-bdb072b575b8",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "GD.FiasSolution",
+  "IsolatedAssemblyName": "GD.FiasSolution.Isolated",
+  "IsolatedNamespace": "GD.FiasSolution.Isolated",
+  "IsVisible": false,
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "GD.FiasSolution",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "GD.FiasSolution.Server",
+  "ServerNamespace": "GD.FiasSolution.Server",
+  "SharedAssemblyName": "GD.FiasSolution.Shared",
+  "SharedNamespace": "GD.FiasSolution.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

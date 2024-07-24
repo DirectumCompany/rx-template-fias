@@ -1,0 +1,181 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "e1e77b3b-e09e-41d9-9778-5a8a7554285e",
+  "Name": "Fias",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "GD.Fias.Client",
+  "ClientBaseAssemblyName": "GD.Fias.ClientBase",
+  "ClientBaseNamespace": "GD.Fias.ClientBase",
+  "ClientNamespace": "GD.Fias.Client",
+  "Code": "Fias",
+  "CompanyCode": "GD",
+  "Cover": {
+    "NameGuid": "79efef9d-9345-414d-a4c1-3ea163958da0",
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "192cfa09-bebd-4f53-8ea4-55aa0c83c611",
+        "Name": "GetFiasGuid",
+        "FunctionName": "GetFiasInfo",
+        "GroupId": "504753a5-cd99-45fa-8086-8b3e0738b237"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "65c8d9d6-5c1c-40b3-a4b1-1934203b159a",
+        "Name": "FiasSettings",
+        "FunctionName": "ShowFiasSettings",
+        "GroupId": "b2457073-6164-4bfa-b192-f2b4f3226d10"
+      }
+    ],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "c2b9c7ad-469a-479a-8e13-e62a769f041b",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [
+      {
+        "NameGuid": "504753a5-cd99-45fa-8086-8b3e0738b237",
+        "Name": "FiasIntegration",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconFiasIntegration_504753a5cd9945fa80868b3e0738b237.png",
+        "TabId": "713262e8-bb7e-4b0a-b442-cf216a84fdb6"
+      },
+      {
+        "NameGuid": "b2457073-6164-4bfa-b192-f2b4f3226d10",
+        "Name": "Settings",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconSettings_b245707361644bfab192f2b4f3226d10.png",
+        "PreviousItemGuid": "504753a5-cd99-45fa-8086-8b3e0738b237",
+        "TabId": "713262e8-bb7e-4b0a-b442-cf216a84fdb6"
+      }
+    ],
+    "Header": {
+      "NameGuid": "be366680-4c38-4a6b-ba71-02f0b4f10335",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": [
+      {
+        "NameGuid": "713262e8-bb7e-4b0a-b442-cf216a84fdb6",
+        "Name": "Tab"
+      }
+    ]
+  },
+  "Dependencies": [
+    {
+      "Id": "5d811843-921d-4df7-90ae-a95b7f56b858",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "9c7c7977-0955-4721-93e9-14641e4bb4da"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "GD.Fias",
+  "IsolatedAssemblyName": "GD.Fias.Isolated",
+  "IsolatedNamespace": "GD.Fias.Isolated",
+  "IsVisible": false,
+  "Libraries": [
+    {
+      "NameGuid": "ba8149a4-72dd-4ee1-a7e8-f9129f0ab9d6",
+      "Name": "Json",
+      "Scope": "Both"
+    },
+    {
+      "NameGuid": "eec929a5-436e-4bd8-af2e-9b271193d829",
+      "Name": "Http",
+      "Scope": "Both"
+    }
+  ],
+  "Overridden": [
+    "IsVisible"
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "GetFiasSettings",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::GD.Fias.IFiasSetting",
+      "ReturnTypeFullName": "GD.Fias.IFiasSetting, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "ShowDialogFias",
+      "Parameters": [
+        {
+          "Name": "postalAddress",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "global::GD.Fias.Structures.Module.IFiasResult",
+      "ReturnTypeFullName": "GD.Fias.Structures.Module.IFiasResult"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "FiasResult",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Address",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "FiasGuid",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "FilledFromFias",
+          "TypeFullName": "global::System.Boolean"
+        }
+      ],
+      "StructureNamespace": "GD.Fias.Structures.Module"
+    }
+  ],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "GD.Fias",
+  "ResourcesKeys": [
+    "FiasSettingsIsEmptyError",
+    "FiasDialogTitle",
+    "FiasDialogText",
+    "PostalAddressLabel",
+    "FiasAddressLabel",
+    "NotFoundLabel",
+    "ShowFiasSettingsName",
+    "FiasResulMessage",
+    "ShowFiasDialogName",
+    "FiasDialogError",
+    "ServiceNotFound",
+    "ServiceIsUnavailable",
+    "InvalidToken"
+  ],
+  "ServerAssemblyName": "GD.Fias.Server",
+  "ServerNamespace": "GD.Fias.Server",
+  "SharedAssemblyName": "GD.Fias.Shared",
+  "SharedNamespace": "GD.Fias.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

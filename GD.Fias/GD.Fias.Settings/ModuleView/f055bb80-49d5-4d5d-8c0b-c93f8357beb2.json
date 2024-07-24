@@ -1,0 +1,226 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "Cover": {
+    "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverSettings, Sungero.NoCode.Settings.Interfaces",
+    "NameGuid": "868426ad-af6d-44ab-9274-179f5fe09fe8",
+    "Header": {
+      "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverHeaderSettings, Sungero.NoCode.Settings.Interfaces",
+      "NameGuid": "be366680-4c38-4a6b-ba71-02f0b4f10335",
+      "Name": "CoverHeaderSettings",
+      "LocalizationStrings": [
+        {
+          "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+          "StringCode": "CoverHeaderSettings_Title_be3666804c384a6bba7102f0b4f10335",
+          "Hash": null,
+          "LocalizationValues": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "default": "Fias integration",
+            "ru-RU": "Интеграция с ФИАС"
+          }
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+          "StringCode": "CoverHeaderSettings_Description_be3666804c384a6bba7102f0b4f10335",
+          "Hash": null,
+          "LocalizationValues": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "ru-RU": "Модуль предназначен для получения идентификатора адреса из ФИАС"
+          }
+        }
+      ],
+      "IconName": null,
+      "Background": null,
+      "BackgroundPosition": 1
+    },
+    "Footer": {
+      "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverFooterSettings, Sungero.NoCode.Settings.Interfaces",
+      "NameGuid": "c2b9c7ad-469a-479a-8e13-e62a769f041b",
+      "Name": "CoverFooterSettings",
+      "LocalizationStrings": [],
+      "IconName": null,
+      "Background": null,
+      "BackgroundPosition": 1
+    },
+    "Tabs": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverTabSettings, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverTabSettings, Sungero.NoCode.Settings.Interfaces",
+          "TabId": "713262e8-bb7e-4b0a-b442-cf216a84fdb6",
+          "NameGuid": "713262e8-bb7e-4b0a-b442-cf216a84fdb6",
+          "Name": "Tab",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "Tab_Title_713262e8bb7e4b0ab442cf216a84fdb6",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "default": "Tab"
+              }
+            }
+          ],
+          "Index": 0,
+          "ParentId": "79efef9d-9345-414d-a4c1-3ea163958da0"
+        }
+      ]
+    },
+    "Groups": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverGroupSettings, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverGroupSettings, Sungero.NoCode.Settings.Interfaces",
+          "GroupId": "504753a5-cd99-45fa-8086-8b3e0738b237",
+          "ColumnNumber": 0,
+          "IconName": "cfb55579-75e7-46bf-ae37-403c2bd30ba4.svg",
+          "NameGuid": "504753a5-cd99-45fa-8086-8b3e0738b237",
+          "Name": "FiasIntegration",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "FiasIntegration_Title_504753a5cd9945fa80868b3e0738b237",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "default": "Fias integration",
+                "ru-RU": "Интеграция с ФИАС"
+              }
+            }
+          ],
+          "Index": 0,
+          "ParentId": "713262e8-bb7e-4b0a-b442-cf216a84fdb6"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverGroupSettings, Sungero.NoCode.Settings.Interfaces",
+          "GroupId": "b2457073-6164-4bfa-b192-f2b4f3226d10",
+          "ColumnNumber": 1,
+          "IconName": "e18b671f-2612-4ce1-98d9-138fe9a48085.svg",
+          "NameGuid": "b2457073-6164-4bfa-b192-f2b4f3226d10",
+          "Name": "Settings",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "Settings_Title_b245707361644bfab192f2b4f3226d10",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "default": "Settings",
+                "ru-RU": "Настройки"
+              }
+            }
+          ],
+          "Index": 1,
+          "ParentId": "713262e8-bb7e-4b0a-b442-cf216a84fdb6"
+        }
+      ]
+    },
+    "Actions": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverActionSettingsBase, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverFunctionActionSettings, Sungero.NoCode.Settings.Interfaces",
+          "FunctionName": "GetFiasInfo",
+          "FunctionModuleId": "e1e77b3b-e09e-41d9-9778-5a8a7554285e",
+          "ActionId": "192cfa09-bebd-4f53-8ea4-55aa0c83c611",
+          "NameGuid": "192cfa09-bebd-4f53-8ea4-55aa0c83c611",
+          "Name": "GetFiasGuid",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "GetFiasGuid_Title_192cfa09bebd4f538ea455aa0c83c611",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "default": "Get FIAS guid",
+                "ru-RU": "Получить идентификатор адреса из ФИАС"
+              }
+            },
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "GetFiasGuid_Description_192cfa09bebd4f538ea455aa0c83c611",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "default": "Search for a postal address in FIAS",
+                "ru-RU": "Поиск почтового адреса в ФИАС"
+              }
+            }
+          ],
+          "Index": 0,
+          "ParentId": "504753a5-cd99-45fa-8086-8b3e0738b237"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverFunctionActionSettings, Sungero.NoCode.Settings.Interfaces",
+          "FunctionName": "ShowFiasSettings",
+          "FunctionModuleId": "e1e77b3b-e09e-41d9-9778-5a8a7554285e",
+          "ActionId": "65c8d9d6-5c1c-40b3-a4b1-1934203b159a",
+          "NameGuid": "65c8d9d6-5c1c-40b3-a4b1-1934203b159a",
+          "Name": "FiasSettings",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "FiasSettings_Title_65c8d9d65c1c40b3a4b11934203b159a",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "default": "Fias settings",
+                "ru-RU": "Настройки интеграции с ФИАС"
+              }
+            },
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "FiasSettings_Description_65c8d9d65c1c40b3a4b11934203b159a",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "default": "Connection parameters to FIAS services",
+                "ru-RU": "Параметры подключения к сервисам ФИАС"
+              }
+            }
+          ],
+          "Index": 0,
+          "ParentId": "b2457073-6164-4bfa-b192-f2b4f3226d10"
+        }
+      ]
+    },
+    "RemoteControls": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverRemoteControlSettings, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": []
+    },
+    "Background": null,
+    "BackgroundPosition": 1
+  },
+  "Priority": 0,
+  "ExplorerModule": {
+    "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+    "TypeGuid": "4cbdfb03-5462-43c4-a033-034e3d3aa095",
+    "Identifier": "e1e77b3b-e09e-41d9-9778-5a8a7554285e"
+  },
+  "Items": {
+    "$type": "Sungero.DataExport.ExportingObject[], Sungero.DataExport",
+    "$values": []
+  },
+  "Recipients": {
+    "$type": "Sungero.DataExport.ExportingObject[], Sungero.DataExport",
+    "$values": [
+      {
+        "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+        "Uuid": "883a9b7f-91b7-4b3d-ac29-27357f17c7dd",
+        "ModuleView": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
+          "Identifier": "f055bb80-49d5-4d5d-8c0b-c93f8357beb2"
+        },
+        "Recipient": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "5e9b55c2-c1f5-4e4f-aa09-7b6d461d87ed",
+          "Identifier": "ba88ed21-a43c-4684-be90-99c5a22e5c90"
+        }
+      }
+    ]
+  },
+  "Uuid": "f055bb80-49d5-4d5d-8c0b-c93f8357beb2",
+  "ModuleNameGuid": "e1e77b3b-e09e-41d9-9778-5a8a7554285e",
+  "StoreAsDefaultSetting": true,
+  "Status": "Active"
+}

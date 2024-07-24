@@ -1,0 +1,41 @@
+{
+  "CoverHeaderSettings_Description_be3666804c384a6bba7102f0b4f10335": {
+    "ru-RU": "Модуль предназначен для получения идентификатора адреса из ФИАС"
+  },
+  "CoverHeaderSettings_Title_be3666804c384a6bba7102f0b4f10335": {
+    "default": "Fias integration",
+    "ru-RU": "Интеграция с ФИАС"
+  },
+  "Description": {},
+  "FiasIntegration_Title_504753a5cd9945fa80868b3e0738b237": {
+    "default": "Fias integration",
+    "ru-RU": "Интеграция с ФИАС"
+  },
+  "FiasSettings_Description_65c8d9d65c1c40b3a4b11934203b159a": {
+    "default": "Connection parameters to FIAS services",
+    "ru-RU": "Параметры подключения к сервисам ФИАС"
+  },
+  "FiasSettings_Title_65c8d9d65c1c40b3a4b11934203b159a": {
+    "default": "Fias settings",
+    "ru-RU": "Настройки интеграции с ФИАС"
+  },
+  "GetFiasGuid_Description_192cfa09bebd4f538ea455aa0c83c611": {
+    "default": "Search for a postal address in FIAS",
+    "ru-RU": "Поиск почтового адреса в ФИАС"
+  },
+  "GetFiasGuid_Title_192cfa09bebd4f538ea455aa0c83c611": {
+    "default": "Get FIAS guid",
+    "ru-RU": "Получить идентификатор адреса из ФИАС"
+  },
+  "Name": {
+    "default": "Fias integration",
+    "ru-RU": "Интеграция с ФИАС"
+  },
+  "Settings_Title_b245707361644bfab192f2b4f3226d10": {
+    "default": "Settings",
+    "ru-RU": "Настройки"
+  },
+  "Tab_Title_713262e8bb7e4b0ab442cf216a84fdb6": {
+    "default": "Tab"
+  }
+}
