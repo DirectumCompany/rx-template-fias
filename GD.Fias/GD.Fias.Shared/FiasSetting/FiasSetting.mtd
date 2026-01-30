@@ -59,6 +59,7 @@
       ]
     }
   ],
+  "FormViewUuid": "19b5237a-9821-4ed2-a98c-669813f86797",
   "HandledEvents": [
     "CreatedServer"
   ],
@@ -69,6 +70,7 @@
   "IsAutoCreated": true,
   "IsCacheable": true,
   "IsVisible": false,
+  "ListViewUuid": "dd4d7d6c-2993-4f31-acd5-169743f7590f",
   "OperationsClass": "",
   "Overridden": [
     "IsCacheable",

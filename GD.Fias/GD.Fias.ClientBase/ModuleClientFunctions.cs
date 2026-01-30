@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace GD.Fias.Client
 {
-  public class ModuleFunctions
+  public partial class ModuleFunctions
   {
     /// <summary>
     /// Отобразить настройки интеграции с ФИАС.

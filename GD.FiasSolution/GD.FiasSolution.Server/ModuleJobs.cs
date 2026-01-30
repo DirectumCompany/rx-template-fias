@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace GD.FiasSolution.Server
 {
-  public class ModuleJobs
+  public partial class ModuleJobs
   {
 
   }

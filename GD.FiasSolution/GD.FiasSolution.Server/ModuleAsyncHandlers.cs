@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace GD.FiasSolution.Server
 {
-  public class ModuleAsyncHandlers
+  public partial class ModuleAsyncHandlers
   {
 
   }

@@ -26,7 +26,6 @@
     "Tabs": []
   },
   "DesktopViews": [],
-  "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "GD.FiasSolution",
@@ -37,7 +36,6 @@
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "GD.FiasSolution",
-  "ResourcesKeys": [],
   "ServerAssemblyName": "GD.FiasSolution.Server",
   "ServerNamespace": "GD.FiasSolution.Server",
   "SharedAssemblyName": "GD.FiasSolution.Shared",
@@ -48,11 +46,11 @@
   "Versions": [
     {
       "Type": "SolutionMetadata",
-      "Number": 9
+      "Number": 12
     },
     {
       "Type": "ModuleMetadata",
-      "Number": 9
+      "Number": 12
     },
     {
       "Type": "DomainApi",
