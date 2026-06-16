@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "FormViewUuid": "19b5237a-9821-4ed2-a98c-669813f86797",
+  "FormViewUuid": "69906345-4495-4ab8-a1f4-dfac2d538c40",
   "HandledEvents": [
     "CreatedServer"
   ],
@@ -70,7 +70,7 @@
   "IsAutoCreated": true,
   "IsCacheable": true,
   "IsVisible": false,
-  "ListViewUuid": "dd4d7d6c-2993-4f31-acd5-169743f7590f",
+  "ListViewUuid": "138cd76c-512d-4587-83a7-76072842b8b9",
   "OperationsClass": "",
   "Overridden": [
     "IsCacheable",
@@ -134,7 +134,7 @@
   "Versions": [
     {
       "Type": "EntityMetadata",
-      "Number": 13
+      "Number": 14
     }
   ]
 }
